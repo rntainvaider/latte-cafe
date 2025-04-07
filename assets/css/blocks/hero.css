@@ -1,0 +1,14 @@
+.hero {
+    background: var(--wine);
+    padding-bottom: 36px;
+}
+
+.container {}
+
+.hero__container {
+    background: url("../../image/hero/bg.webp");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 644px;
+}
