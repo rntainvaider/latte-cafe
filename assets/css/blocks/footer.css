@@ -1,0 +1,14 @@
+.footer {}
+
+.footer__container {}
+
+.footer__menu {}
+
+.footer__list {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+}
+
+.footer__item {}
+
+.footer__link {}

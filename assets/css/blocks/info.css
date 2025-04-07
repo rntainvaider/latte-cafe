@@ -1,0 +1,36 @@
+.info {
+    background: var(--golden-olive);
+}
+
+.info__container {
+    display: flex;
+    justify-content: space-between;
+    gap: 80px;
+    padding: 120px 0;
+}
+
+.info__block {
+    flex: 1 1 calc(33.9%);
+}
+
+.info__title {
+    font-family: var(--second-family);
+    font-weight: 700;
+    font-size: 17px;
+    text-align: center;
+    color: #fff;
+    margin-bottom: 15px;
+}
+
+.info__text {
+    font-size: 25px;
+    line-height: 146%;
+    text-align: center;
+    color: #fff;
+}
+
+.info__inner {
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+}
