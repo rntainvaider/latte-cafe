@@ -1,0 +1,29 @@
+.main {}
+
+.about {}
+
+.container {}
+
+.about__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3px;
+    padding: 220px 0 244px 0;
+}
+
+.about__title {
+    font-family: var(--second-family);
+    font-weight: 700;
+    font-size: 17px;
+    text-align: center;
+}
+
+.about__description {
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 140%;
+    text-align: center;
+    font-style: italic;
+    max-width: 869px;
+}

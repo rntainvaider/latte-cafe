@@ -1,4 +1,9 @@
 :root {
+    --wine: #4A2B33;
+    --blush: #d27487;
+    --muted-berry: #C67A88;
+    --white: #ffffff;
+
     --font-family: "Inter", sans-serif;
     --second-family: "Azeret Mono", sans-serif;
-  }
+}
