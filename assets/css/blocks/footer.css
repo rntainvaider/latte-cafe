@@ -1,14 +1,31 @@
-.footer {}
+.footer {
+    padding: 56px 0 39px 0;
+}
 
 .footer__container {}
 
-.footer__menu {}
+.footer__menu {
+    margin-bottom: 16px;
+}
 
 .footer__list {
     display: grid;
-    grid-template-columns: repeat(7, 1fr);
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 10px;
+    grid-auto-flow: row dense;
 }
 
 .footer__item {}
 
 .footer__link {}
+
+.footer__block {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+}
+
+.footer__span {
+    font-size: 13px;
+    color: #696969;
+}
