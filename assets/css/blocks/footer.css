@@ -12,28 +12,9 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    gap: 32px;
-    row-gap: 7px;
+    gap: 7px 32px;
     max-width: 650px;
 }
-
-=======
-.footer__container {}
-
-.footer__menu {
-    margin-bottom: 16px;
-}
-
-.footer__list {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-    gap: 10px;
-    grid-auto-flow: row dense;
-}
-
-.footer__item {}
-
-.footer__link {}
 
 .footer__block {
     display: flex;
